@@ -13,7 +13,7 @@ multilinestring: |
   abc
   def
  
-# Also lists can be realized in two ways
+# Also lists can be realized in two ways:
 alist:
  - a
  - b
@@ -27,7 +27,8 @@ amapping:
 deepernesting:
   nested:
     foo: bar
- 
+  empty:
+
 # Mappings and lists can be combined
 listofmappings:
   - foo: bar
