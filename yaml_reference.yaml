@@ -1,0 +1,36 @@
+# This is a (non-exhaustive) reference of the YAML syntax used in GitHub Actions
+# Note that advanced parts of the YAML spec like anchors are not supported.
+
+# The top-level document is always a mapping
+
+# Values can be strings, numbers and boolean values 
+somestring: value1
+somenumber: 42
+someboolean: true
+
+# Strings can also be split across multiple lines
+multilinestring: |
+  abc
+  def
+ 
+# Also lists can be realized in two ways
+alist:
+ - a
+ - b
+shortlist: [a, b]
+
+# Mappings can be nested by using indentation
+amapping:
+  key1: bla
+
+# This can be repeated to arbitrary depth
+deepernesting:
+  nested:
+    foo: bar
+ 
+# Mappings and lists can be combined
+listofmappings:
+  - foo: bar
+    bar: foo
+  - foo: bar
+    bar: foo
