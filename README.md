@@ -8,3 +8,4 @@ A change
 
 Another change
 Appending a line
+More changes
