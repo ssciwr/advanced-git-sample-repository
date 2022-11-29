@@ -1,2 +1,3 @@
+panda2.0
 numpy
 pytest
