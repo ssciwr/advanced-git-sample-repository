@@ -2,4 +2,4 @@ pytest
 pytest-cov
 numpy
 scipy
-torch
+
