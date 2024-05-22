@@ -1,4 +1,3 @@
-bla
 pytest
 pytest-cov
 numpy
