@@ -4,3 +4,4 @@ numpy
 pandas
 tqdm
 bla
+foo
